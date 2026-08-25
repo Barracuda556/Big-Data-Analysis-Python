@@ -1,6 +1,6 @@
 # Введение в анализ больших данных (Python)
 
-Лекционные материалы и задания по дисциплине **«Введение в анализ больших данных»**, адаптированные с языка R на **Python** (NumPy + SciPy + Pandas + Matplotlib + Seaborn + Statsmodels).
+Лекционные материалы и задания по дисциплине **«Введение в анализ больших данных»**, адаптированные с языка R на **Python**.
 
 ## Содержание
 
@@ -25,12 +25,14 @@
 ### Лекция 7 — Регрессионный анализ
 [`Lecture_07_Regression_Python.ipynb`](Lecture_07_Regression_Python.ipynb)
 
+### Лекция 8 — Подбор вида зависимости (сравнение моделей)
+[`Lecture_08_Model_Selection_Python.ipynb`](Lecture_08_Model_Selection_Python.ipynb)
+
 Темы:
-- Линейная регрессия (`statsmodels.ols`)
-- Пример `trees`: Volume ~ Girth + Height
-- Анализ остатков: Shapiro–Wilk, Breusch–Godfrey, Breusch–Pagan, MSE
-- Датасет черепах (Turtle): weight ~ length + width + height
-- Диагностические графики
+- Линейная, полиномиальная (2) и логарифмическая регрессия
+- MSE, AIC, анализ остатков
+- ANOVA для вложенных моделей
+- Выбор лучшей модели
 
 ## Как открыть
 
