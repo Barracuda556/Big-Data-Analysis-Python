@@ -34,11 +34,14 @@
 ### Лекция 10 — Статистические критерии
 [`Lecture_10_Statistical_Tests_Python.ipynb`](Lecture_10_Statistical_Tests_Python.ipynb)
 
+### Лекция 11 — Дисперсионный анализ (ANOVA / MANOVA)
+[`Lecture_11_ANOVA_MANOVA_Python.ipynb`](Lecture_11_ANOVA_MANOVA_Python.ipynb)
+
 Темы:
-- Shapiro–Wilk, Kolmogorov–Smirnov
-- t-тест, F-тест (Фишер)
-- Хи-квадрат Пирсона, мозаичные диаграммы
-- Датасеты: trees, randu, ldeaths, HairEyeColor
+- Двухфакторный ANOVA (`ols` + `anova_lm`)
+- ToothGrowth: len ~ supp * dose
+- MANOVA (`MANOVA.from_formula`)
+- Шаблоны для DA.csv и university2.csv
 
 ## Как открыть
 
