@@ -40,11 +40,14 @@
 ### Лекция 12 — Кластерный анализ
 [`Lecture_12_Clustering_Python.ipynb`](Lecture_12_Clustering_Python.ipynb)
 
+### Лекция 13 — Факторный анализ
+[`Lecture_13_Factor_Analysis_Python.ipynb`](Lecture_13_Factor_Analysis_Python.ipynb)
+
 Темы:
-- Иерархическая кластеризация (Ward, дендрограмма)
-- K-means, elbow и silhouette
-- Стандартизация, PCA-визуализация
-- Шаблон для KLast1.csv (регионы)
+- Корреляционная матрица, scree, parallel analysis
+- FactorAnalysis + varimax
+- Нагрузки и communality
+- Шаблон для FactorAn.csv
 
 ## Как открыть
 
