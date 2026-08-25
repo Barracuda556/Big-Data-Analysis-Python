@@ -17,14 +17,17 @@
 ### Лекция 3 — Описательные статистики
 Файл: [`Lecture_03_Descriptive_Statistics_Python.ipynb`](Lecture_03_Descriptive_Statistics_Python.ipynb)
 
+Темы: NMES1988, гистограмма + KDE, mean/SE, медиана, квартили, skewness/kurtosis, groupby, boxplot, barplot.
+
+### Лекция 4 — Построение таблиц частот
+Файл: [`Lecture_04_Frequency_Tables_Python.ipynb`](Lecture_04_Frequency_Tables_Python.ipynb)
+
 Темы:
-- Датасет NMES1988 (загрузка из Rdatasets)
-- Гистограмма + KDE
-- Среднее, SE, медиана, квартили
-- Асимметрия и эксцесс
-- Группировка (`groupby`)
-- Boxplot, barplot
-- Медианы по нескольким факторам
+- `pd.cut()` — разбиение на категории (пятибалльная и европейская системы)
+- Таблицы абсолютных и относительных частот (`value_counts`)
+- Объединение таблиц (`pd.concat` ≈ `cbind`)
+- Столбчатые диаграммы (stacked / grouped)
+- Круговые диаграммы (`plt.pie`)
 
 В тетрадях приведены:
 - объяснения основных классов и методов;
