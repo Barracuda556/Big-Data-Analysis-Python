@@ -46,11 +46,13 @@
 ### Лекция 14 — Дискриминантный анализ (LDA)
 [`Lecture_14_Discriminant_Analysis_Python.ipynb`](Lecture_14_Discriminant_Analysis_Python.ipynb)
 
+### Лекция 15 — Линейное программирование (графическое решение)
+[`Lecture_15_Linear_Programming_Python.ipynb`](Lecture_15_Linear_Programming_Python.ipynb)
+
 Темы:
-- Iris: PCA biplot, LDA train/test
-- Confusion matrix, accuracy, MANOVA (Wilks)
-- Проекция LD1–LD2
-- Шаблон для INZs.csv
+- Прямоугольная допустимая область, линии уровня, градиент
+- ЗЛП с неравенствами, вершины, экстремум
+- Планирование производства + `scipy.optimize.linprog`
 
 ## Как открыть
 
