@@ -31,12 +31,14 @@
 ### Лекция 9 — Бинарная (логистическая) регрессия
 [`Lecture_09_Logistic_Regression_Python.ipynb`](Lecture_09_Logistic_Regression_Python.ipynb)
 
+### Лекция 10 — Статистические критерии
+[`Lecture_10_Statistical_Tests_Python.ipynb`](Lecture_10_Statistical_Tests_Python.ipynb)
+
 Темы:
-- Logit и probit модели (`statsmodels`)
-- UCLA binary (admit ~ gre + gpa + rank)
-- Confusion matrix, accuracy, sensitivity, specificity
-- ROC-кривая и AUC
-- Train/test split и оценка модели
+- Shapiro–Wilk, Kolmogorov–Smirnov
+- t-тест, F-тест (Фишер)
+- Хи-квадрат Пирсона, мозаичные диаграммы
+- Датасеты: trees, randu, ldeaths, HairEyeColor
 
 ## Как открыть
 
