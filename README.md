@@ -22,12 +22,18 @@
 ### Лекция 4 — Построение таблиц частот
 Файл: [`Lecture_04_Frequency_Tables_Python.ipynb`](Lecture_04_Frequency_Tables_Python.ipynb)
 
+Темы: `pd.cut()`, таблицы частот, barplot, pie chart.
+
+### Лекция 5 — Работа с данными. Коэффициент корреляции
+Файл: [`Lecture_05_Correlation_Python.ipynb`](Lecture_05_Correlation_Python.ipynb)
+
 Темы:
-- `pd.cut()` — разбиение на категории (пятибалльная и европейская системы)
-- Таблицы абсолютных и относительных частот (`value_counts`)
-- Объединение таблиц (`pd.concat` ≈ `cbind`)
-- Столбчатые диаграммы (stacked / grouped)
-- Круговые диаграммы (`plt.pie`)
+- Генерация нормальной и биномиальной выборок
+- ECDF и гистограммы
+- Корреляция Пирсона, Спирмена, Кендалла + проверка значимости
+- Стандартизация (`scale`)
+- Логарифмирование
+- Датасет mtcars: dotchart, groupby, ECDF по группам
 
 В тетрадях приведены:
 - объяснения основных классов и методов;
@@ -40,7 +46,7 @@
 2. Откройте в Jupyter Notebook, JupyterLab, VS Code или Google Colab.
 3. Убедитесь, что установлены библиотеки:
    ```bash
-   pip install numpy scipy pandas matplotlib seaborn
+   pip install numpy scipy pandas matplotlib seaborn statsmodels
    ```
 
 ## Репозиторий
