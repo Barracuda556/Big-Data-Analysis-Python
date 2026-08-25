@@ -28,16 +28,20 @@
 ### Лекция 8 — Подбор вида зависимости (сравнение моделей)
 [`Lecture_08_Model_Selection_Python.ipynb`](Lecture_08_Model_Selection_Python.ipynb)
 
+### Лекция 9 — Бинарная (логистическая) регрессия
+[`Lecture_09_Logistic_Regression_Python.ipynb`](Lecture_09_Logistic_Regression_Python.ipynb)
+
 Темы:
-- Линейная, полиномиальная (2) и логарифмическая регрессия
-- MSE, AIC, анализ остатков
-- ANOVA для вложенных моделей
-- Выбор лучшей модели
+- Logit и probit модели (`statsmodels`)
+- UCLA binary (admit ~ gre + gpa + rank)
+- Confusion matrix, accuracy, sensitivity, specificity
+- ROC-кривая и AUC
+- Train/test split и оценка модели
 
 ## Как открыть
 
 ```bash
-pip install numpy scipy pandas matplotlib seaborn statsmodels
+pip install numpy scipy pandas matplotlib seaborn statsmodels scikit-learn
 ```
 
 ## Репозиторий
