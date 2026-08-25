@@ -43,11 +43,14 @@
 ### Лекция 13 — Факторный анализ
 [`Lecture_13_Factor_Analysis_Python.ipynb`](Lecture_13_Factor_Analysis_Python.ipynb)
 
+### Лекция 14 — Дискриминантный анализ (LDA)
+[`Lecture_14_Discriminant_Analysis_Python.ipynb`](Lecture_14_Discriminant_Analysis_Python.ipynb)
+
 Темы:
-- Корреляционная матрица, scree, parallel analysis
-- FactorAnalysis + varimax
-- Нагрузки и communality
-- Шаблон для FactorAn.csv
+- Iris: PCA biplot, LDA train/test
+- Confusion matrix, accuracy, MANOVA (Wilks)
+- Проекция LD1–LD2
+- Шаблон для INZs.csv
 
 ## Как открыть
 
