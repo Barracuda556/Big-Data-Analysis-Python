@@ -7,33 +7,28 @@
 ### Лекция 1 — Создание объектов для хранения данных
 Файл: [`Lecture_01_Data_Structures_Python.ipynb`](Lecture_01_Data_Structures_Python.ipynb)
 
-Темы: векторы, DataFrame, матрицы, массивы, списки, факторы, фреймы данных.
-
 ### Лекция 2 — Вероятностные распределения
 Файл: [`Lecture_02_Probability_Distributions_Python.ipynb`](Lecture_02_Probability_Distributions_Python.ipynb)
-
-Темы: нормальное, равномерное, Стьюдента; генерация выборок, плотности, гистограммы.
 
 ### Лекция 3 — Описательные статистики
 Файл: [`Lecture_03_Descriptive_Statistics_Python.ipynb`](Lecture_03_Descriptive_Statistics_Python.ipynb)
 
-Темы: NMES1988, гистограмма + KDE, mean/SE, медиана, квартили, skewness/kurtosis, groupby, boxplot, barplot.
-
 ### Лекция 4 — Построение таблиц частот
 Файл: [`Lecture_04_Frequency_Tables_Python.ipynb`](Lecture_04_Frequency_Tables_Python.ipynb)
-
-Темы: `pd.cut()`, таблицы частот, barplot, pie chart.
 
 ### Лекция 5 — Работа с данными. Коэффициент корреляции
 Файл: [`Lecture_05_Correlation_Python.ipynb`](Lecture_05_Correlation_Python.ipynb)
 
+### Лекция 6 — Построение матрицы корреляции
+Файл: [`Lecture_06_Correlation_Matrix_Python.ipynb`](Lecture_06_Correlation_Matrix_Python.ipynb)
+
 Темы:
-- Генерация нормальной и биномиальной выборок
-- ECDF и гистограммы
-- Корреляция Пирсона, Спирмена, Кендалла + проверка значимости
-- Стандартизация (`scale`)
-- Логарифмирование
-- Датасет mtcars: dotchart, groupby, ECDF по группам
+- Датасет NMES1988
+- Shapiro–Wilk (проверка нормальности)
+- Корреляция Спирмена (visits ~ age)
+- Матрица корреляций + heatmap
+- Значимость коэффициентов (|r| < 0.5)
+- Анализ по полу и по регионам
 
 В тетрадях приведены:
 - объяснения основных классов и методов;
