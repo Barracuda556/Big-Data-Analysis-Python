@@ -37,11 +37,14 @@
 ### Лекция 11 — Дисперсионный анализ (ANOVA / MANOVA)
 [`Lecture_11_ANOVA_MANOVA_Python.ipynb`](Lecture_11_ANOVA_MANOVA_Python.ipynb)
 
+### Лекция 12 — Кластерный анализ
+[`Lecture_12_Clustering_Python.ipynb`](Lecture_12_Clustering_Python.ipynb)
+
 Темы:
-- Двухфакторный ANOVA (`ols` + `anova_lm`)
-- ToothGrowth: len ~ supp * dose
-- MANOVA (`MANOVA.from_formula`)
-- Шаблоны для DA.csv и university2.csv
+- Иерархическая кластеризация (Ward, дендрограмма)
+- K-means, elbow и silhouette
+- Стандартизация, PCA-визуализация
+- Шаблон для KLast1.csv (регионы)
 
 ## Как открыть
 
