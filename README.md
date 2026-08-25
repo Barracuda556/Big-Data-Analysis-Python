@@ -1,31 +1,30 @@
 # Введение в анализ больших данных (Python)
 
-Лекционные материалы и задания по дисциплине **«Введение в анализ больших данных»**, адаптированные с языка R на **Python** (NumPy + SciPy + Pandas + Matplotlib).
+Лекционные материалы и задания по дисциплине **«Введение в анализ больших данных»**, адаптированные с языка R на **Python** (NumPy + SciPy + Pandas + Matplotlib + Seaborn).
 
 ## Содержание
 
 ### Лекция 1 — Создание объектов для хранения данных
 Файл: [`Lecture_01_Data_Structures_Python.ipynb`](Lecture_01_Data_Structures_Python.ipynb)
 
-Темы:
-- Векторы → `list`, `numpy.ndarray`, `pandas.Series`
-- Таблицы / data.frame → `pandas.DataFrame`
-- Матрицы → `numpy.ndarray` (2D)
-- Многомерные массивы → `numpy.ndarray`
-- Списки → `list` / `dict`
-- Факторы → `pandas.Categorical`
-- Фреймы данных → `pandas.DataFrame`
+Темы: векторы, DataFrame, матрицы, массивы, списки, факторы, фреймы данных.
 
 ### Лекция 2 — Вероятностные распределения
 Файл: [`Lecture_02_Probability_Distributions_Python.ipynb`](Lecture_02_Probability_Distributions_Python.ipynb)
 
+Темы: нормальное, равномерное, Стьюдента; генерация выборок, плотности, гистограммы.
+
+### Лекция 3 — Описательные статистики
+Файл: [`Lecture_03_Descriptive_Statistics_Python.ipynb`](Lecture_03_Descriptive_Statistics_Python.ipynb)
+
 Темы:
-- Нормальное распределение (`scipy.stats.norm`)
-- Равномерное распределение (`scipy.stats.uniform`)
-- Распределение Стьюдента (`scipy.stats.t`)
-- Генерация выборок (`.rvs()`)
-- Плотности вероятности (`.pdf()`)
-- Построение гистограмм с наложением кривой плотности
+- Датасет NMES1988 (загрузка из Rdatasets)
+- Гистограмма + KDE
+- Среднее, SE, медиана, квартили
+- Асимметрия и эксцесс
+- Группировка (`groupby`)
+- Boxplot, barplot
+- Медианы по нескольким факторам
 
 В тетрадях приведены:
 - объяснения основных классов и методов;
